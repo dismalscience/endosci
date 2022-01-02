@@ -41,7 +41,7 @@ fundingcompare$type <- factor(fundingcompare$type, levels = c(as.character(fundi
 
 # realisation of the graphs and exports
 
-web.inter.chart.nb.endopublis <- plot_ly(datanbpublis[datanbpublis$PubYear != 2020,], x = ~PubYear, y = ~Freq, name = "Endometriosis-related publications", type = "bar", marker=list(color="#6a51a3"), hovertemplate ="%{y} documents published in %{x} <extra></extra>") %>% layout(title = "Fast development of Endometriosis-related research since the 1980s", xaxis = list(title = "Publication Year"), yaxis = list (title = "Number of yearly Publications"))  %>% config(displayModeBar = FALSE) # chart on the evolution of the number of publications over time
+web.inter.chart.nb.endopublis <- plot_ly(datanbpublis[datanbpublis$PubYear != 2020,], x = ~PubYear, y = ~Freq, name = "Endometriosis-related publications", type = "bar", marker=list(color="#6a51a3"), hovertemplate ="%{y} documents published in %{x} <extra></extra>") %>% layout(xaxis = list(title = "Publication Year"), yaxis = list (title = "Number of yearly Publications"))  %>% config(displayModeBar = FALSE) # chart on the evolution of the number of publications over time
 
 htmlwidgets::saveWidget(partial_bundle(frameableWidget(web.inter.chart.nb.endopublis)),'web.inter.chart.nb.endopublis.html', selfcontained = F, libdir = "lib")
 
