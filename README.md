@@ -1,7 +1,7 @@
 # endosci
 Analysis of the scientific literature on endometriosis (1925-2020)
 
-This repositery provides the main scripts and some of the datasets using in the Endosci project. The main objective of this project was to carry out a comprehensive analysis of the scientific literature dedicated to a common gynecological disease (endometriosis) alongside different perspectives: level of effort, studied topics, geography and gender. It provides valuable context information to people interested in endometriosis, and could be used to feed public debates regarding the future of scientific research and healthcare issues linked to this condition.
+This repositery provides the main scripts used in the Endosci project. The main objective of this project was to carry out a comprehensive analysis of the scientific literature dedicated to a common gynecological disease (endometriosis) alongside different perspectives: level of effort, studied topics, geography and gender. It provides valuable context information to people interested in endometriosis, and could be used to feed public debates regarding the future of scientific research and healthcare issues linked to this condition.
 
 Full information on the project is available at: http://dismalscience.eu
 
